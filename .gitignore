@@ -2,7 +2,7 @@
 *.vsidx
 *.sqlite
 *.sqlite3
-*.vs/
+.vs/
 .vscode/
 
 # Byte-compiled / optimized / DLL files

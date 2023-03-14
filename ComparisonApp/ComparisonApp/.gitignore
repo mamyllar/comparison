@@ -2,6 +2,8 @@
 *.vsidx
 *.sqlite
 *.sqlite3
+.vs/
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
