@@ -19,7 +19,7 @@ class Pet(Animal):
 
     def changeOwner(self, newOwner):
         self.owner = newOwner
-        print("The new owner of " + name + " is " + owner)
+        print("The new owner of " + self.name + " is " + self.owner)
 
 
 class Dog(Pet):
