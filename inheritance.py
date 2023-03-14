@@ -17,6 +17,10 @@ class Pet(Animal):
     def printInfo(self):
         print(self.name + " is owned by " + self.owner)
 
+    def changeOwner(self, newOwner):
+        self.owner = newOwner
+        print("The new owner of " + name + " is " + owner)
+
 
 class Dog(Pet):
     def __init__(self, numberOfLegs, color, age, name, owner, breed) -> None:
