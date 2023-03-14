@@ -29,7 +29,7 @@ namespace ComparisonApp
         {
             owner = newOwner;
 
-            Console.WriteLine("The new owner of " + name + " is " + owner )
+            Console.WriteLine("The new owner of " + name + " is " + owner );
         }
     }
 }
