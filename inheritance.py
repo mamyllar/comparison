@@ -27,7 +27,7 @@ class Dog(Pet):
         print("Woof woof!")
 
     def run(self):
-        print("This dog is running on " + self.numberOfLegs + "legs.")
+        print("This dog is running on " + self.numberOfLegs + " legs.")
 
 
 
