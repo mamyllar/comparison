@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ComparisonApp
 {
-    internal class Dog
+    class Dog //derived class 2
     {
     }
 }
