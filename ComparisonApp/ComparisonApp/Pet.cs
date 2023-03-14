@@ -24,5 +24,12 @@ namespace ComparisonApp
         {
             Console.WriteLine(name + " is owned by " + owner);
         }
+
+        public void changeOwner(string newOwner)
+        {
+            owner = newOwner;
+
+            Console.WriteLine("The new owner of " + name + " is " + owner )
+        }
     }
 }
