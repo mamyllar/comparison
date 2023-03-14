@@ -14,14 +14,15 @@ namespace ComparisonApp
 
         public Animal(int numLegs, string animalColor, int animalAge)
         {
-            numberOfLeg = numLegs;
+            numberOfLegs = numLegs;
             color = animalColor;
             age = animalAge;
         }
 
-        static void Main(string[] args)
+        public void run()
         {
-            
+            Console.WriteLine("This animal is running on " + numberOfLegs + " legs.");
         }
+
     }
 }

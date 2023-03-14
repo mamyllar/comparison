@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace ComparisonApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Animal test = new Animal(4, "black", 4);
+            test.run();
+        }
+    }
+}
