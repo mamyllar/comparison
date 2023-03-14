@@ -11,19 +11,16 @@ namespace ComparisonApp
         public string name;
         string owner;
 
-        public Pet(int numLegs, string animalColor, int animalAge, string petName, string petOwner)
+        public Pet(int numLegs, string animalColor, int animalAge, string petName, string petOwner) : base(numLegs, animalColor, animalAge)
         {
-            numberOfLegs = numLegs;
-            color = animalColor;
-            age = animalAge;
             name = petName;
             owner = petOwner;
         }
 
         public void printInfo()
-        {
-            Console.WriteLine(name + " is owned by " + owner);
-        }
+            {
+                Console.WriteLine(name + " is owned by " + owner);
+            }
 
         public void changeOwner(string newOwner)
         {

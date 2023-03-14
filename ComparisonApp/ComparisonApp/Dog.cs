@@ -10,13 +10,8 @@ namespace ComparisonApp
     {
         public string breed;
 
-        public Dog(int numLegs, string animalColor, int animalAge, string petName, string petOwner, string dogBreed)
+        public Dog(int numLegs, string animalColor, int animalAge, string petName, string petOwner, string dogBreed) : base(numLegs, animalColor, animalAge, petName, petOwner)
         {
-            numberOfLegs = numLegs;
-            color = animalColor;
-            age = animalAge;
-            name = petName;
-            owner = petOwner;
             breed = dogBreed;
         }
 
@@ -25,7 +20,7 @@ namespace ComparisonApp
             Console.WriteLine("Woof woof!");
         }
 
-        public void run()
+        public override void run()
         {
             Console.WriteLine("This dog is running on " + numberOfLegs + " legs.");
         }
