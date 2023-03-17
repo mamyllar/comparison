@@ -20,7 +20,7 @@ namespace ComparisonApp
             Console.WriteLine("Woof woof!");
         }
 
-        public override void run()
+        public override void run() //override
         {
             Console.WriteLine("This dog is running on " + numberOfLegs + " legs.");
         }

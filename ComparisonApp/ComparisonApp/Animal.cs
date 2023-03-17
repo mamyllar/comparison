@@ -19,7 +19,7 @@ namespace ComparisonApp
             age = animalAge;
         }
 
-        public virtual void run()
+        public virtual void run() //can be override
         {
             Console.WriteLine("This animal is running on " + numberOfLegs + " legs.");
         }
