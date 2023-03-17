@@ -1,4 +1,4 @@
-class Animal:
+class Animal: # Parent class
     def __init__(self, numberOfLegs, color, age) -> None:
         self.numberOfLegs = numberOfLegs
         self.color = color
@@ -8,9 +8,9 @@ class Animal:
         print("This animal is running on " + str(self.numberOfLegs) + " legs.")
 
 
-class Pet(Animal):
+class Pet(Animal): # Child class
     def __init__(self, numberOfLegs, color, age, name, owner):
-        super().__init__(numberOfLegs, color, age)
+        super().__init__(numberOfLegs, color, age) # from parent class
         self.name = name
         self.owner = owner
 
@@ -22,15 +22,15 @@ class Pet(Animal):
         print("The new owner of " + self.name + " is " + self.owner)
 
 
-class Dog(Pet):
+class Dog(Pet): # inheriting from Child class
     def __init__(self, numberOfLegs, color, age, name, owner, breed):
-        super().__init__(numberOfLegs, color, age, name, owner)
+        super().__init__(numberOfLegs, color, age, name, owner) #from the inhereted class
         self.breed = breed
 
     def bark(self):
         print("Woof woof!")
 
-    def run(self):
+    def run(self): #override
         print("This dog is running on " + str(self.numberOfLegs) + " legs.")
 
 animal = Animal(4, "brown", 6)
