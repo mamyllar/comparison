@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ComparisonApp",
+    "\\ComparisonApp\\ComparisonApp"
   ],
+  "SelectedNode": "\\ComparisonApp\\ComparisonApp\\Pet.cs",
   "PreviewInSolutionExplorer": false
 }
